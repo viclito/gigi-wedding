@@ -110,7 +110,7 @@ const ThirdPage = () => {
       </div>
       <div className="flex justify-center mt-8">
         <Link to="/gallery">
-          <button className="px-6 py-1 bg-black text-white rounded-lg shadow-md hover:bg-black transition-all font-semibold">
+          <button className="px-6 py-1 bg-black text-white rounded-lg shadow-md hover:bg-black transition-all font-semibold cursor-pointer">
             View Gallery
           </button>
         </Link>

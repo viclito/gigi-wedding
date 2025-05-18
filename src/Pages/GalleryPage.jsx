@@ -23,6 +23,7 @@ import twenty1 from '../assets/pre/21.webp'
 import twenty2 from '../assets/pre/22.webp'
 // import twenty3 from '../assets/pre/23.webp'
 import twenty4 from '../assets/pre/24.webp'
+import { useEffect } from "react";
 
 const itemData = [
   {
@@ -122,6 +123,11 @@ const itemData = [
 ];
 
 const GalleryPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
+  
   return (
     <div>
       <h1
