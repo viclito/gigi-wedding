@@ -7,13 +7,13 @@ import FifthPage from './MainPage/FifthPage'
 
 const MainPage = () => {
   return (
-    <>
+    <div className='max-w-screen overflow-hidden'>
         <FirstSec/>
         <SecondPage/>
         <ThirdPage/>
         <FourthPage/>
         <FifthPage/>
-    </>
+    </div>
   )
 }
 
