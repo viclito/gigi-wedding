@@ -19,7 +19,7 @@ const LocationPage = () => {
     name: "Jebin Rose House",
     address: "Rosebavan , Kandervilagam , Vanniyakudy Post",
     time: "Friday, May 23rd, 2025 at 9:00 AM",
-    mapUrl: ""
+    mapUrl: "https://maps.app.goo.gl/9Uawo7ZyBkUymnZd7"
   };
   const BrideHouseLocation = {
     name: "Gigi House",
@@ -31,7 +31,7 @@ const LocationPage = () => {
     name: "St Fathhima Matha Community Hall",
     address: "Kandervilagam , Vanniyakudy Post",
     time: "Friday, May 23rd, 2025 at 5:00 PM",
-    mapUrl: ""
+    mapUrl: "https://maps.app.goo.gl/Rj1hURGVckyxYadJ8"
   };
 
   const buttonStyle = (type) => ({
