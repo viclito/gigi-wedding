@@ -157,7 +157,7 @@ const LocationPage = () => {
                 </div>
                 <div className='w-full md:w-[40%]'>
                     <a
-                        href={churchLocation.mapUrl}
+                        href={ReceptionLocation.mapUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
